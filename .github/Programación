@@ -1,1 +1,28 @@
+Tarea en Clase:
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+a = (25,56,12,11,200)
+r = len(a)
+r2 = r-4
+mz = np.zeros(r2)
+
+for i in range(r):
+    print(a[i])
+
+for j in range(r2):
+    mz[j] = a[j]
+    print(mz[j]) 
+
+mz2 = np.zeros(r)
+for p in range(r):
+    mz2[p] =+ np.sin(a[p]) + np.cos(a[p])
+    print(mz2)
+
+    
+plt.plot(mz2,a)
+plt.title("Clase: 17-12-2024")
+plt.show()
 
